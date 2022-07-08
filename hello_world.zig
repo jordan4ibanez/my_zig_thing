@@ -16,7 +16,7 @@ pub const MyClass = struct {
     }
 
     pub fn debug(self: MyClass) void {
-        print("my_value is: {d}", .{self.my_value});
+        print("my_value is: {d}\n\n", .{self.my_value});
     }
 
 };
@@ -32,6 +32,5 @@ pub fn main() !void {
     classy.add(10);
 
     classy.debug();
-
 
 }
