@@ -1,9 +1,9 @@
 @echo off
 
-zig build-exe hello_world.zig
+zig build-exe hello_ecs.zig
 
 echo.
 echo Finished Build...Running:
 echo.
 
-hello_world.exe
+hello_ecs.exe
